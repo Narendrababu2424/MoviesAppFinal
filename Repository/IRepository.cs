@@ -2,7 +2,7 @@
 
 namespace MoviesAppFinal.Repository
 {
-    public interface IRepository 
+    public interface IRepository
     {
         List<Movie> GetAll();
         Movie? GetById(int id);

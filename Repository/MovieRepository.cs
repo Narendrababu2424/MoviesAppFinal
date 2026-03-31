@@ -36,7 +36,9 @@ namespace MoviesAppFinal.Repository
         {
             var movie = _context.Movies.Find(id);
             if (movie != null)
+            {
                 _context.Movies.Remove(movie);
+            }
         }
 
         public void Save()

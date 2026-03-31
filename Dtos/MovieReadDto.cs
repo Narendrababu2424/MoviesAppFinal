@@ -1,17 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace MoviesAppFinal.Models
+﻿namespace MoviesAppFinal.Dtos
 {
-    public class Movie
+    public class MovieReadDto
     {
         public int Id { get; set; }
-
         public string Title { get; set; }
-
         public int ReleaseYear { get; set; }
-
         public string Genre { get; set; }
-
         public string ImgUrl { get; set; }
     }
 }
